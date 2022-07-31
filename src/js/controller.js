@@ -8,9 +8,9 @@ import bookmarksView from "./views/bookmarksView.js";
 import addRecipeView from "./views/addRecipeView.js";
 
 // Polyfilling everything js code except for async await
-import "core-js/stable";
+import "../../node_modules/core-js/stable";
 // Polyfilling async await
-import "regenerator-runtime/runtime";
+import "../../node_modules/regenerator-runtime/runtime";
 
 // https://forkify-api.herokuapp.com/v2
 
