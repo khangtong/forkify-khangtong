@@ -95,6 +95,7 @@ export default class View {
       <p>${message}</p>
     </div>
     `;
+    console.log(markup);
     this._clear();
     this._parentElement.insertAdjacentHTML("afterbegin", markup);
   }

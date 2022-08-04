@@ -25,6 +25,7 @@ const controlRecipes = async function () {
     const id = window.location.hash.slice(1);
 
     if (!id) return;
+    console.log(id);
     recipeView.renderSpinner();
 
     // 0. Update results view to mark selected result
